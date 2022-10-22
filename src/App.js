@@ -12,12 +12,12 @@ import imageChess from "./images/image-chess.webp"
 
 function App() {
   const actions = {
-    reacted: "Reacted to your recent post ",
-    followed: "followed you",
-    joined: "has joined your group ",
-    message: "sent you a private message",
-    commented: "commented on your picture",
-    leftGroup: "left the group "
+    reacted: " reacted to your recent post ",
+    followed: " followed you",
+    joined: " has joined your group ",
+    message: " sent you a private message",
+    commented: " commented on your picture",
+    leftGroup: " left the group "
   }
   return (
     <div className="App">

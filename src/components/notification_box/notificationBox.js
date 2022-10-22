@@ -6,9 +6,13 @@ const notificationBox = ((props)=>{
             <img src={props.picture} className="profile-picture"/>
             <div className="info-container">
                 <div className="info-second-container">
-                    <p className="name">{props.name}</p>
-                    <p className="action">{props.action}</p>
-                    <p className="place">{props.place}</p>
+                    <p>
+                        <span className="name">{props.name}</span>
+                        <span className="action">{props.action}</span>
+                        <span className="place">{props.place}</span>
+                    </p>
+                    
+                    
                 </div>
                 <p className="time">{props.time} ago</p>
             </div>

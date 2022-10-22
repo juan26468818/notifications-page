@@ -1,5 +1,9 @@
 .notification-container{
     display: flex;
+    margin-bottom: 1rem;
+}
+.notification-container > *{
+    margin-left: .5rem;
 }
 .profile-picture{
     width: 40px;
@@ -7,4 +11,15 @@
 }
 .info-second-container{
     display: flex;
+}
+.name{
+    font-weight: 800;
+}
+.place{
+    font-weight: 800;
+    color: var(--Blue);
+}
+.time{
+    font-size: .8rem;
+    color: var(--Grayish-blue);
 }
