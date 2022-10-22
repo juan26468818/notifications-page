@@ -1,0 +1,10 @@
+.notification-container{
+    display: flex;
+}
+.profile-picture{
+    width: 40px;
+    height: 40px
+}
+.info-second-container{
+    display: flex;
+}

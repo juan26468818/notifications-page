@@ -12,12 +12,12 @@ import imageChess from "./images/image-chess.webp"
 
 function App() {
   const actions = {
-    reacted: "Reacted to your recent post",
+    reacted: "Reacted to your recent post ",
     followed: "followed you",
-    joined: "has joined your group",
+    joined: "has joined your group ",
     message: "sent you a private message",
     commented: "commented on your picture",
-    leftGroup: "left the group"
+    leftGroup: "left the group "
   }
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
         <NotificationBox picture={avatarAngela} name="Angela Gray" action={actions.followed} place="" time="5m" />
         <NotificationBox picture={avatarJacob} name="Jacob Thompson" action={actions.joined} place="Chess Club" time="1 day" />
         <NotificationBox picture={avatarRizky} name="Rizky Hasanuddin" action={actions.message} place="" time="5 days" />
-        <NotificationBox picture={avatarKimberly} name="Kimberly Smith" action={actions.commented} place={imageChess} time="1 week" />
+        <NotificationBox picture={avatarKimberly} name="Kimberly Smith" action={actions.commented} place="" time="1 week" />
         <NotificationBox picture={avatarNathan} name="Nathan Peterson" action={actions.reacted} place="5 end-game strategies to increase your win rate" time="2 weeks" />
         <NotificationBox picture={avatarAnna} name="Anna Kim" action={actions.leftGroup} place="Chess Club" time="2 weeks" />
       </main>

@@ -11,9 +11,9 @@ const Header = () =>{
         <header>    
             <div className="header__notifications-container">
                 <h1>Notifications</h1>
-                <div>{notificationNumber}</div>
+                <div className="notification-number">{notificationNumber}</div>
             </div>
-            <a onClick={handleClick}>Mark all as read</a>
+            <a onClick={handleClick} className="mark-as-read">Mark all as read</a>
         </header>
     )
 }
